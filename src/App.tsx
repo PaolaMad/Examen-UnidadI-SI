@@ -1,11 +1,15 @@
 import {View} from 'react-native';
-import { TestScreen } from './presentation/screens/TestScreen';
 import { styles } from './config/app-theme';
+import { TemperatureControl } from './presentation/screens/TemperatureControl';
+import { ColorsScreen } from './presentation/screens/ColorsScreen';
 
 export const App = () => {
   return (
     <View style={styles.container}>
-      <TestScreen />
+      {/* <TemperatureControl/> */}
+      <ColorsScreen />
     </View>
   );
 };
+
+
